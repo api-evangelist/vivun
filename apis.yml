@@ -1,8 +1,26 @@
 aid: vivun
+accessModel:
+  pricing: unknown
+  onboarding: approval
+  trial: false
+  try_now: false
+  public: false
+  label: Requires approval
+  confidence: medium
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/vivun.png
 name: Vivun
-description: 'Vivun is a company surfaced as a portfolio company of accel, menlo-ventures and added to
-  the API Evangelist network as a stub for enrichment. Sector: b2b. This profile is a lead awaiting the
-  enrichment pipeline.'
+description: 'Vivun is a B2B software company building AI teammates for revenue and
+  sales teams using structured reasoning. Its flagship product, Hero, is an AI teammate
+  built to help sellers win, and it pioneered the PreSales management category with
+  tooling for sales engineering teams. Vivun also promotes a Sales Reasoning Model
+  (SRM) and Agent Intelligence approach. The company is venture-backed by Accel and
+  Menlo Ventures. As of this profile Vivun exposes a public product and trust surface
+  (website, blog, resources, trust center) but does not publish a public developer
+  API, developer portal, or OpenAPI specification; this record captures its verified
+  security, compliance, and web identity for the API Evangelist network.'
 url: https://raw.githubusercontent.com/api-evangelist/vivun/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -13,10 +31,16 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-21'
 tags:
 - Company
 - B2B
+- Sales
+- Artificial Intelligence
+- PreSales
+- Sales Engineering
+- Revenue
+- SaaS
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -25,4 +49,21 @@ maintainers:
   email: info@apis.io
 common:
 - type: Website
-  url: http://vivun.com/
+  url: https://www.vivun.com/
+- type: Blog
+  url: https://www.vivun.com/blog
+- type: PrivacyPolicy
+  url: https://www.vivun.com/privacy
+- type: TermsOfService
+  url: https://www.vivun.com/terms-of-service
+- type: TrustCenter
+  url: security/vivun-trust-center.yml
+- type: Compliance
+  url: https://www.vivun.com/trust
+- type: DomainSecurity
+  url: security/vivun-domain-security.yml
+x-enrichment:
+  date: '2026-07-21'
+  status: enriched
+  artifacts_added: 2
+  pass: local-v1
