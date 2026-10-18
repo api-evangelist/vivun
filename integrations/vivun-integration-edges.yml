@@ -2,6 +2,7 @@ generated: '2026-10-14'
 method: searched
 checked:
 - https://marketplace.atlassian.com/
+- slack/integrations/slack-integration-edges.yml
 marketplace_apps: []
 edges:
 - partner_name: Atlassian Marketplace
@@ -20,5 +21,22 @@ edges:
   publisher_name: Vivun Inc.
   detected_by: sweep-devtools.py
   detected: '2026-10-14'
+- partner_name: Slack (own)
+  partner: slack
+  partner_match: mirror
+  mirror_match: domain
+  type: marketplace
+  relationship: platform-app
+  direction: third-party
+  channel: partner-built
+  marketplace: own
+  evidence: https://slack.com/marketplace/A012B9W1JHY-vivun-for-slack
+  mirror_of: slack/integrations/slack-integration-edges.yml
+  apps:
+  - Vivun for Slack
+  listing_count: 1
+  detected: '2026-10-18'
+  detected_by: mirror-platform-listings.py
+  category: Slack app
 source:
 - https://marketplace.atlassian.com/
